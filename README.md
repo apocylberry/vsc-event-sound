@@ -16,7 +16,7 @@ No additional setup required, but on Windows, Media Player must be installed and
 ## Extension Settings
 
 - `eventSound.soundPath`: Absolute path to the sound file to be played.
-- To configure new sound, {kbd}Ctrl{/kbd}+{kbd}Shift{/kbd}+{kbd}P{/kbd}: Select Debug Stop Sound
+- To configure new sound, <kbd>Ctrl<kbd>+<kbd>Shift<kbd>+<kbd>P<kbd>: Select Debug Stop Sound
 
 ## Known Issues
 
@@ -26,7 +26,7 @@ No additional setup required, but on Windows, Media Player must be installed and
 
 ## To Instal (Windows)
 
-- {kbd}Ctrl{/kbd}+{kbd}Shift{/kbd}+{kbd}P{/kbd} and type `Extensions: Install from VSIX`
+- <kbd>Ctrl<kbd>+<kbd>Shift<kbd>+<kbd>P<kbd> and type `Extensions: Install from VSIX`
 - Select the packaged .vsix
 - Wait for successful installation
 
