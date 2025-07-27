@@ -49,5 +49,10 @@
   },
   "dependencies": {
     "play-sound": "^1.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apocylberry/vsc-event-sound.git"
   }
+
 }
