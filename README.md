@@ -2,8 +2,7 @@
 
 Play a custom sound every time a breakpoint is hit in Visual Studio Code.
 
-[!WARNING]
-This extension is fully vibe-coded.  Use at your own risk.  Windows presentation works on *my* machine, but may not work on yours.  Mac and Linux features fully untested and may not work.
+> :warning: **This extension is fully vibe-coded.  Use at your own risk.**  Windows presentation works on **my** machine, but may not work on yours.  Mac and Linux features fully untested and may not work.
 
 
 ## Features
