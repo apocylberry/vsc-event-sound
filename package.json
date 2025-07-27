@@ -1,0 +1,53 @@
+{
+  "name": "debug-sound",
+  "displayName": "Debug Sound Notifier",
+  "description": "Play a sound when debugging stops.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:debug-sound.selectSound",
+    "onDebug"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "debugSound.selectSound",
+        "title": "Select Debug Stop Sound"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Debug Sound Settings",
+      "properties": {
+        "debugSound.soundPath": {
+          "type": "string",
+          "default": "",
+          "description": "File path for the debug stop sound (.wav recommended). Leave empty to use the default sound."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.70.0",
+    "typescript": "^4.8.0",
+    "vscode-test": "^1.6.1"
+  },
+  "dependencies": {
+    "play-sound": "^1.1.6"
+  }
+}
