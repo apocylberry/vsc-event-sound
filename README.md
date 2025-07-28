@@ -26,7 +26,11 @@ No additional setup required, but on Windows, Media Player must be installed and
 - Some sound formats may not be supported by the default media player.
 - VibeCode fought for hours on the Windos version; Mac and Linux fully untested
 
-## To Instal (Windows)
+## To Install (Windows)
+
+- (Optional) Install packaging module:
+-- `npm install -g @vscode/vsce`
+-- `vsce package`
 
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and type `Extensions: Install from VSIX`
 - Select the packaged .vsix
