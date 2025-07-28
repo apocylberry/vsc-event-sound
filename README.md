@@ -29,8 +29,8 @@ No additional setup required, but on Windows, Media Player must be installed and
 ## To Install (Windows)
 
 - (Optional) Install packaging module:
--- `npm install -g @vscode/vsce`
--- `vsce package`
+    - `npm install -g @vscode/vsce`
+    - `vsce package`
 
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and type `Extensions: Install from VSIX`
 - Select the packaged .vsix
